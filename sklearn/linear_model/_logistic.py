@@ -1159,11 +1159,11 @@ class LogisticRegression(
         number for verbosity.
 
     warm_start : bool, default=False
-    When set to ``True``, reuse the solution of the previous call to
-    fit as initialization, otherwise, just erase the previous solution.
-    Useless for liblinear solver. See :term:`the Glossary <warm_start>`.
-    Note that ``n_iter_`` may be 0 on subsequent fits when
-    ``warm_start=True`` if the model has already converged.
+        When set to ``True``, reuse the solution of the previous call to
+        fit as initialization, otherwise, just erase the previous solution.
+        Useless for liblinear solver. See :term:`the Glossary <warm_start>`.
+        Note that ``n_iter_`` may be 0 on subsequent fits when
+        ``warm_start=True`` if the model has already converged.
 
 
         .. versionadded:: 0.17
@@ -1209,7 +1209,7 @@ class LogisticRegression(
         .. versionadded:: 1.0
 
     n_iter_ : ndarray of shape (1, )
-    Actual number of iterations for all classes.
+           Actual number of iterations for all classes.
 
         .. versionchanged:: 0.20
 
